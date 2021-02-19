@@ -60,7 +60,7 @@ def main():
 		log.debug("MP3_OUT: " + MP3_OUT.name)
 		WAV_OUT = tempfile.NamedTemporaryFile(suffix=".wav")
 		log.debug("WAV_OUT: " + WAV_OUT.name)
-		UL_OUT = tempfile.NamedTemporaryFile(suffix=".ul", delete=False)
+		UL_OUT = tempfile.NamedTemporaryFile(suffix=".ul")
 		log.debug("UL_OUT: " + UL_OUT.name)
 	
 		# Retrieve the file to a temporary file
