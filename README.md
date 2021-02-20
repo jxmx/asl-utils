@@ -28,10 +28,11 @@ or called from a crontab:
 Depending on the processing speed of the device and Internet connectivity, 
 the start of playback may take a significant time. If the desire is for 
 precision on the start time, use the `--when` command and execute
-the `allstar-plan-arn` a few minutes before the desired start time.
+`allstar-play-arn` a few minutes before the desired start time.
 
-The script is silent except on errors. Some useful troubleshooting may
-be done with the `--debug` option.
+The script is silent except on errors like all good Unix utilities. Some 
+useful troubleshooting may be done with the `--debug` option if an
+error is not revealing.
 
 There are not many options to this tool. From /usr/local/bin/allstar-play-arn --help
 
