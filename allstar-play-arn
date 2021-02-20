@@ -115,6 +115,12 @@ def main():
 		if res.returncode != 0:
 			raise Exception("COMMAND: {0:s}\n\n OUTPUT:\n{1:s}".format(astplay, res.stdout.decode()))
 
+		# sleep for 15 seconds so the playback starts before the
+		# deconstructor deletes the temporary file for UL_OUT
+		# don't want a different script needed to clean up /tmp
+		log.debug("sleeping for 15 seconds for playback to start")
+		sleep(15)
+
 	except Exception as e:
 		sys.exit("Error: " + str(e))
 
