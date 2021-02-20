@@ -1,5 +1,5 @@
 # allstar-arn
-Tools for playing Amateur Radio News on Allstarlink Nodes
+Tool for playing Amateur Radio News on Allstarlink Nodes
 
 # Installation
 
