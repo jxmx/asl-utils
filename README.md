@@ -1,6 +1,11 @@
 # allstar-arn
 Tool for playing Amateur Radio News on Allstarlink Nodes
 
+# Pre-requisites
+This script uses standard Python libraries. Allstar.org ASL
+should have them all installed by default. For HamVOIP Allstar
+the HTTP requests module must be installed with `pacman -S extra/python-requests`.
+
 # Installation
 
 1. cp allstar-play-arn /usr/local/bin
